@@ -106,7 +106,7 @@ function App() {
             {...register("age", { required: "Age cannot be empty" })}
           />
         </label>
-        <button className="border bg-slate-200 hover:bg-amber-200 hover:shadow-lg hover:border active:bg-slate-500 active:text-white px-4 rounded mt-2">
+        <button className="cursor-pointer border bg-slate-200 hover:bg-amber-200 hover:shadow-lg hover:border active:bg-slate-500 active:text-white px-4 rounded mt-2">
           {isSubmitting ? "Loading..." : "Submit"}{" "}
         </button>
       </form>
